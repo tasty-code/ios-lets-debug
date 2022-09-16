@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        titleLabel.text = "두 번째 뷰 컨트롤러!"
         changeTextColor()
     }
     
